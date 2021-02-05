@@ -1,3 +1,4 @@
+#แบบฝึกหัดที่ 4.2
 word = {}
 def menu():
 	print("-"*50)
@@ -6,14 +7,14 @@ def add():
 	w = input("เพิ่มคำศัพท์ : " )
 	t = input("ชนิดคำศัพท์ (n,v,adj,adv) : ")
 	m = input("ความหมาย : ")
-	word.update({w:{m,t}})
+	word[w]="{0: <15}{1: <15}".format(t,m)
 def view():
 	print("-"*50)
 	print(" "*20 +"คำศัพท์ของคุณมีดังนี้"+"	"*20)
 	print("-"*50)
 	print("{0:-<15}{1:-<15}{2:-<10}".format("คำศัพท์" , "ประเภท", "ความหมาย"))
-	for a,b in word.items():
-		print(a+" ",b)
+	for i in word:
+		print("{0: <15}{1: <15}".format(i,word[i]))
 def remove():
 	x = input("พิมพ์คำศัพท์ที่ต้องการลบ :")
 	z = input("คุณแน่ใจใช่ไหมว่าต้องการลบ (y/n) :")
@@ -32,7 +33,7 @@ while True:
 	elif me == 3:
 		remove()
 	else:
-		z = input("คุณแน่ใจใช่มั้ยว่าต้องการออกจากโปรแกรม : ")
+		z = input("คุณแน่ใจใช่มั้ยว่าต้องการออกจากโปรแกรม (y or n): ")
 		if z == "y":
 			break
 		else:

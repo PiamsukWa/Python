@@ -1,4 +1,5 @@
 #Python Conditional Statements if else
+#แบบฝึกหัด 3.1
 print("#"*50)
 print("เลือกเมนูเพื่อทำรายการ")
 print("#"*50)
