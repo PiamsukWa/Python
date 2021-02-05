@@ -1,0 +1,8 @@
+Name = input('What is your Name?\n')
+Surname = input('What is your Surname?\n')
+level = input('What is your level?\n')
+ID = input('What is your ID?\n')
+print('\n\n Name is  %s.' % Name)
+print(' Surname is %s.' % Surname)
+print(' level is %s.' % level)
+print(' ID is %s. ' % ID)
