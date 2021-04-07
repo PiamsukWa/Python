@@ -9,7 +9,8 @@ class shop :
         print(i+1,".",self.products,self.rates," บาท ")
     def show():
         print("-"*20,"SK Bombam","-"*20)
-        print("\tแสดงรายการสินค้า [a]\n\tเพิ่มรายการสินค้า[s]\n\tออกจากระบบ[x]")
+        print("\tแสดงรายการสินค้า [a]\n\tเพิ่มรายการสินค้า[s]\n\tแสดงรายกานสินค้าและราคาสินค้า[r]\n\tออกจากระบบ[x]")
+
 
 while True :
     shop.show() 
