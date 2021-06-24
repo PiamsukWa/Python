@@ -406,13 +406,13 @@ def sell():
     photo02 = PhotoImage(file="Sponser.png")
     Label(windows, image=photo02).place(relx=0.70,rely=0.28,anchor='n')
 
-    photo03 = PhotoImage(file="มาม่าต้มยำบิ๊ก.png")
+    photo03 = PhotoImage(file="mamabig.png")
     Label(windows, image=photo03).place(relx=0.29,rely=0.53,anchor='n')
 
-    photo04 = PhotoImage(file="มาม่าเย็นตาโฟ.png")
+    photo04 = PhotoImage(file="mamayentafo.png")
     Label(windows, image=photo04).place(relx=0.50,rely=0.54,anchor='n')
  
-    photo05 = PhotoImage(file="มาม่าหมูต้มยำ.png")
+    photo05 = PhotoImage(file="mamapig.png")
     Label(windows, image=photo05).place(relx=0.70,rely=0.54,anchor='n')
 
     creator = tk.Frame(windows, bg='#006699', bd=6) #กรอบข้อความ
@@ -1718,7 +1718,7 @@ def change3_change1000():
     creator = tk.Frame(windows, bg='#006699', bd=6) 
     creator.place(relx=0.5, rely=0.9, relwidth=0.57, relheight=0.06, anchor='n') #กรอบล่าง
 def base():
-    photo = PhotoImage(file="ปก6.png")
+    photo = PhotoImage(file="index.png")
     Button(windows, image = photo, borderwidth=0).pack()
     head()
     create_()
